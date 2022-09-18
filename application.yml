@@ -12,18 +12,9 @@ eureka:
     
     
 microservice:
-  cloud-gateway:
-    endpoints:
-      endpoint:
-        uri: http://GATEWAY-SERVICE/payment/transaction
-        uri: http://GATEWAY-SERVICE/order/submitOrder
+
 
   payment-service:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/transaction
-
-  order-service:
-    endpoints:
-      endpoint:
-        uri:  http://ORDER-SERVICE/order/submitOrder
