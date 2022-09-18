@@ -10,7 +10,8 @@ eureka:
     
     
     
- microservice:
+    
+microservice:
   cloud-gateway:
     endpoints:
       endpoint:
